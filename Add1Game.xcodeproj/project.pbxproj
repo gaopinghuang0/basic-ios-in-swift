@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB77178425A029940015E9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77178325A029940015E9C4 /* AppDelegate.swift */; };
 		FB77178625A029940015E9C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77178525A029940015E9C4 /* SceneDelegate.swift */; };
-		FB77178825A029940015E9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77178725A029940015E9C4 /* ViewController.swift */; };
+		FB77178825A029940015E9C4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77178725A029940015E9C4 /* GameViewController.swift */; };
 		FB77178B25A029940015E9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB77178925A029940015E9C4 /* Main.storyboard */; };
 		FB77178D25A029970015E9C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB77178C25A029970015E9C4 /* Assets.xcassets */; };
 		FB77179025A029970015E9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB77178E25A029970015E9C4 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		FB77178025A029940015E9C4 /* Add1Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Add1Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB77178325A029940015E9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB77178525A029940015E9C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB77178725A029940015E9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB77178725A029940015E9C4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FB77178A25A029940015E9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB77178C25A029970015E9C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB77178F25A029970015E9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		FB7717A125A029970015E9C4 /* Add1GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Add1GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7717A525A029970015E9C4 /* Add1GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add1GameUITests.swift; sourceTree = "<group>"; };
 		FB7717A725A029970015E9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7717C225A02B0A0015E9C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		FB77177725A029930015E9C4 = {
 			isa = PBXGroup;
 			children = (
+				FB7717C225A02B0A0015E9C4 /* README.md */,
 				FB77178225A029940015E9C4 /* Add1Game */,
 				FB77179925A029970015E9C4 /* Add1GameTests */,
 				FB7717A425A029970015E9C4 /* Add1GameUITests */,
@@ -101,7 +103,7 @@
 			children = (
 				FB77178325A029940015E9C4 /* AppDelegate.swift */,
 				FB77178525A029940015E9C4 /* SceneDelegate.swift */,
-				FB77178725A029940015E9C4 /* ViewController.swift */,
+				FB77178725A029940015E9C4 /* GameViewController.swift */,
 				FB77178925A029940015E9C4 /* Main.storyboard */,
 				FB77178C25A029970015E9C4 /* Assets.xcassets */,
 				FB77178E25A029970015E9C4 /* LaunchScreen.storyboard */,
@@ -258,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB77178825A029940015E9C4 /* ViewController.swift in Sources */,
+				FB77178825A029940015E9C4 /* GameViewController.swift in Sources */,
 				FB77178425A029940015E9C4 /* AppDelegate.swift in Sources */,
 				FB77178625A029940015E9C4 /* SceneDelegate.swift in Sources */,
 			);
@@ -438,6 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Add1Game/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +459,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Add1Game/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
