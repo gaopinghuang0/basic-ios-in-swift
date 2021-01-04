@@ -15,6 +15,8 @@
 		FB77179025A029970015E9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB77178E25A029970015E9C4 /* LaunchScreen.storyboard */; };
 		FB77179B25A029970015E9C4 /* Add1GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77179A25A029970015E9C4 /* Add1GameTests.swift */; };
 		FB7717A625A029970015E9C4 /* Add1GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7717A525A029970015E9C4 /* Add1GameUITests.swift */; };
+		FB7717CC25A360520015E9C4 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB7717CB25A360520015E9C4 /* HVD_Comic_Serif_Pro.otf */; };
+		FB7717D125A3A81B0015E9C4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7717D025A3A81B0015E9C4 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		FB7717A525A029970015E9C4 /* Add1GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add1GameUITests.swift; sourceTree = "<group>"; };
 		FB7717A725A029970015E9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB7717C225A02B0A0015E9C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB7717CB25A360520015E9C4 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+		FB7717D025A3A81B0015E9C4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		FB77178225A029940015E9C4 /* Add1Game */ = {
 			isa = PBXGroup;
 			children = (
+				FB7717CB25A360520015E9C4 /* HVD_Comic_Serif_Pro.otf */,
 				FB77178325A029940015E9C4 /* AppDelegate.swift */,
 				FB77178525A029940015E9C4 /* SceneDelegate.swift */,
 				FB77178725A029940015E9C4 /* GameViewController.swift */,
@@ -108,6 +113,7 @@
 				FB77178C25A029970015E9C4 /* Assets.xcassets */,
 				FB77178E25A029970015E9C4 /* LaunchScreen.storyboard */,
 				FB77179125A029970015E9C4 /* Info.plist */,
+				FB7717D025A3A81B0015E9C4 /* String.swift */,
 			);
 			path = Add1Game;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			files = (
 				FB77179025A029970015E9C4 /* LaunchScreen.storyboard in Resources */,
 				FB77178D25A029970015E9C4 /* Assets.xcassets in Resources */,
+				FB7717CC25A360520015E9C4 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				FB77178B25A029940015E9C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 			files = (
 				FB77178825A029940015E9C4 /* GameViewController.swift in Sources */,
 				FB77178425A029940015E9C4 /* AppDelegate.swift in Sources */,
+				FB7717D125A3A81B0015E9C4 /* String.swift in Sources */,
 				FB77178625A029940015E9C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

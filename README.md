@@ -1,4 +1,4 @@
-## Creating a simple iOS game with swift in Xcode 
+## Creating a simple iOS game with Swift in Xcode 
 
 Follow the tutorial: https://learnappmaking.com/creating-a-simple-ios-game-with-swift-in-xcode/
 
